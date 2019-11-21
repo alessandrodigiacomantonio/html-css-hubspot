@@ -100,6 +100,27 @@ nav.menu {
   background-color: #ffffff;
   height: 10%;
 }
+nav.menu > *{
+  width: 50%;
+}
+nav.menu img {
+  margin-top: 10px;
+  height: 25px;
+}
+nav.menu ul.float-r {
+  text-align: right;
+}
+nav.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+nav.menu li i {
+  padding-left: 10px;
+}
+nav.menu a {
+  line-height: 45px;
+  vertical-align: middle;
+}
 
 .banner {
   height: 80%;
