@@ -3,3 +3,54 @@
   margin: 0;
   padding: 0;
 }
+
+.compacted {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.float-l {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fixed {
+  display: fixed;
+  width: 100%;
+}
+
+header {
+  height: 450px;
+}
+
+nav.istructions {
+  background-color: #f4f9fd;
+  height: 10%;
+  border-bottom: 1px solid #32495b;
+}
+
+nav.menu {
+  background-color: #ffffff;
+  height: 10%;
+}
+
+.banner {
+  height: 80%;
+  /* background-repeat: no-repeat;
+  background-size: 50% ;
+  background-position: bottom -55px right;
+  background-image: url(../img/jumbotron.png); */
+  background: linear-gradient(0deg, rgba(254,245,239,1) 0%, rgba(255,242,238,1) 0%);
+}
+
+#container > hr {
+  height: 45px;
+  background-color: #afebe4;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
+}
