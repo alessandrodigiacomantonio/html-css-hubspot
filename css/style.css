@@ -57,7 +57,7 @@ header nav a {
   color: #32495b;
 
 }
-nav a {
+header a {
   text-decoration: none;
 }
 
@@ -129,6 +129,28 @@ nav.menu a {
   background-position: bottom -55px right;
   background-image: url(../img/jumbotron.png); */
   background: linear-gradient(0deg, rgba(254,245,239,1) 0%, rgba(255,242,238,1) 0%);
+}
+
+.banner-text {
+  padding-top: 20px;
+}
+.banner-text > * {
+  width: 50%;
+  margin-top: 25px;
+}
+.banner-text h1 {
+  font-size: 36px;
+  line-height: 0.9em;
+}
+.banner-text h4 {
+  font-size: 12px;
+  line-height: 1.6em;
+}
+.banner-text .orange-buttons {
+  padding: 10px 20px;
+}
+.banner-text h5 {
+  font-size: 11px;
 }
 
 #container > hr {
