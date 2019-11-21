@@ -13,6 +13,10 @@
   float: left;
 }
 
+.float-r {
+  float: right;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -24,6 +28,10 @@
   width: 100%;
 }
 
+.list-style-none {
+  list-style: none;
+}
+
 header {
   height: 450px;
 }
@@ -32,6 +40,22 @@ nav.istructions {
   background-color: #f4f9fd;
   height: 10%;
   border-bottom: 1px solid #32495b;
+}
+
+nav.istructions li{
+  display: inline-block;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+nav.istructions ul {
+  width: 50%;
+}
+
+hr.nav-vertical-row {
+  width: 1px;
+  height: 1em;
+  border: 0.5px solid #899397;
 }
 
 nav.menu {
