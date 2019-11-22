@@ -183,6 +183,7 @@ nav.menu a {
 /* sezione del main con bg grigio chiaro */
 main section.light-grey-bg {
   background-color: #f4f9fd;
+  padding-bottom: 50px;
 }
 main section.light-grey-bg i {
   color: #fe775a;
@@ -284,3 +285,21 @@ main section.light-grey-bg i {
 }
 /* /blocchi verticali con bg bianco */
 /* /sezione del main con bg grigio chiaro */
+
+/* sezione del main con bg gradiente blu chiaro */
+section.gradient-background-lightblue {
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.gradient-background-lightblue * {
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+
+.gradient-background-lightblue li {
+  display: inline-block;
+}
