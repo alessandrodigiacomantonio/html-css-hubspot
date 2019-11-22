@@ -62,7 +62,7 @@ p > strong {
 /* /regole di stile generiche */
 
 header {
-  height: 450px;
+  position: relative;
   color: #33475b;
 }
 header nav a {
@@ -73,7 +73,6 @@ header nav a {
 /* nav bar */
 nav.instructions {
   background-color: #f4f9fd;
-  height: 10%;
   border-bottom: 1px solid #32495b;
 }
 nav.instructions ul {
@@ -108,7 +107,6 @@ ul.instructions-right .search {
 
 nav.menu {
   background-color: #ffffff;
-  height: 10%;
 }
 nav.menu > *{
   width: 50%;
@@ -136,16 +134,18 @@ nav.menu a {
 /* banner */
 .banner {
   position: relative;
-  height: 80%;
   background: linear-gradient(rgba(255,242,238,1), #fef7ef);
+  padding-bottom: 40px;
 }
 
 .banner-text {
   padding-top: 20px;
 }
 .banner-text > * {
+  position: relative;
   width: 35%;
   margin-top: 25px;
+  z-index: 1;
 }
 .banner-text h1 {
   font-size: 36px;
@@ -162,17 +162,25 @@ nav.menu a {
   font-size: 11px;
   font-weight: 400;
 }
-.banner-text::after {
-  content: url(../img/jumbotron.png);
+.banner::after {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: scale(0.55) translate(2%, 53.4%);
+  bottom: -10%;
+  right: 20%;
+  background-image: url(../img/jumbotron.png);
+  background-position: right bottom;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  content: "";
+  /* transform: scale(0.55) translate(2%, 53.4%); */
 }
 /* /banner */
 
 /* banda orizzontale azzurro chiaro sotto il banner */
 #container > hr {
+  /* position: relative; */
   height: 45px;
   background-color: #afebe4;
   border-top: 2px solid #33475b;
