@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
 .compacted {
   width: 60%;
   margin: 0 auto;
@@ -39,6 +42,7 @@
 
 .orange-buttons {
   color: #fff;
+  padding: 10px 20px;
   background-color: #fe775a;
   border-radius: 5px;
 }
@@ -56,9 +60,6 @@ header {
 header nav a {
   color: #32495b;
 
-}
-header a {
-  text-decoration: none;
 }
 
 nav.instructions {
@@ -172,12 +173,7 @@ main section.light-grey-bg i {
   color: #fe775a;
 }
 
-.pre-blocks-compatter {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.l-g-b-blocks {
+.l-g-b-blocks:not(.top) {
   background-color: #fff;
 }
 .l-g-b-blocks > * {
@@ -196,12 +192,18 @@ main section.light-grey-bg i {
   height: 90px;
 }
 
+.l-g-b-blocks.horizontal {
+  padding: 20px;
+}
 .l-g-b-blocks.horizontal .float-l {
   width: 30%
 }
 .l-g-b-blocks.horizontal img {
-  height: 45px;
-  margin-bottom:
+  height: 65px;
+  margin-bottom: 10px;
+}
+.l-g-b-blocks.horizontal a {
+
 }
 .l-g-b-blocks.horizontal .float-r {
   width: 30%
