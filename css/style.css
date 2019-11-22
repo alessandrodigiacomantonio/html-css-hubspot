@@ -201,10 +201,11 @@ main section.light-grey-bg i {
 .l-g-b-blocks.top {
   width: 50%;
   padding-top: 20px;
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
+  margin: 0px auto 40px auto;
   clear: both;
 }
 .l-g-b-blocks.top img {
@@ -229,8 +230,6 @@ main section.light-grey-bg i {
 
 .l-g-b-blocks.horizontal .right-block  * {
   text-align: left;
-  /* line-height: 1.4em;
-  margin-bottom: 20px; */
 }
 
 .l-g-b-blocks.horizontal .right-block p.float-l {
@@ -265,6 +264,8 @@ main section.light-grey-bg i {
 .vertical-blocks li:last-child {
   margin-bottom: 0px;
 }
-/* .vertical-blocks a {
 
-} */
+.vertical-blocks.second {
+  margin-left: 5%;
+  margin-right: 5%;
+}
