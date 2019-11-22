@@ -1,3 +1,4 @@
+/* regole di stile generiche */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -58,6 +59,7 @@ p > strong {
   border: 1px solid #fe775a;
   border-radius: 5px;
 }
+/* /regole di stile generiche */
 
 header {
   height: 450px;
@@ -68,6 +70,7 @@ header nav a {
 
 }
 
+/* nav bar */
 nav.instructions {
   background-color: #f4f9fd;
   height: 10%;
@@ -128,7 +131,9 @@ nav.menu a {
   line-height: 45px;
   vertical-align: middle;
 }
+/* /nav bar */
 
+/* banner */
 .banner {
   position: relative;
   height: 80%;
@@ -164,15 +169,18 @@ nav.menu a {
   right: 0;
   transform: scale(0.55) translate(2%, 53.4%);
 }
-/* banda orizzontale sotto il banner */
+/* /banner */
+
+/* banda orizzontale azzurro chiaro sotto il banner */
 #container > hr {
   height: 45px;
   background-color: #afebe4;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
 }
-/* /banda orizzontale sotto il banner */
+/* /banda orizzontale azzurro chiaro sotto il banner */
 
+/* sezione del main con bg grigio chiaro */
 main section.light-grey-bg {
   background-color: #f4f9fd;
 }
@@ -197,7 +205,7 @@ main section.light-grey-bg i {
   margin-bottom: 20px;
 }
 
-/* sezione sotto il banner */
+/* sezione sotto il banner con bg grigio chiaro */
 .l-g-b-blocks.top {
   width: 50%;
   padding-top: 20px;
@@ -210,9 +218,11 @@ main section.light-grey-bg i {
 }
 .l-g-b-blocks.top img {
   height: 130px;
+  margin-bottom: 0;
 }
-/* /sezione sotto il banner */
+/* /blocco sotto il banner con bg grigio chiaro */
 
+/* blocco orizzontale con bg bianco */
 .l-g-b-blocks.horizontal {
   margin-bottom: 20px;
   padding: 70px 20px 0px 20px;
@@ -249,9 +259,12 @@ main section.light-grey-bg i {
 .l-g-b-blocks.horizontal i {
   padding-right: 1.3em;
 }
+/* /blocco orizzontale con bg bianco */
 
+/* blocchi verticali con bg bianco */
 .vertical-blocks {
   padding: 20px 20px 0px 20px;
+  margin-bottom: 40px;
   width: 30%;
 }
 .vertical-blocks img {
@@ -269,3 +282,5 @@ main section.light-grey-bg i {
   margin-left: 5%;
   margin-right: 5%;
 }
+/* /blocchi verticali con bg bianco */
+/* /sezione del main con bg grigio chiaro */
