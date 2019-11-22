@@ -135,10 +135,10 @@ nav.menu a {
 .banner {
   position: relative;
   background: linear-gradient(rgba(255,242,238,1), #fef7ef);
-  padding-bottom: 40px;
 }
 
 .banner-text {
+  position: relative;
   padding-top: 20px;
 }
 .banner-text > * {
@@ -164,27 +164,27 @@ nav.menu a {
 }
 .banner::after {
   position: absolute;
-  bottom: -10%;
+  bottom: 0%;
   right: 20%;
+  height: 100%;
+  width: 100%;
   background-image: url(../img/jumbotron.png);
   background-position: right bottom;
-  background-size: 70% 100%;
+  background-size: contain;
   background-repeat: no-repeat;
-  display: inline-block;
-  height: 100%;
-  width: 50%;
   content: "";
-  /* transform: scale(0.55) translate(2%, 53.4%); */
 }
 /* /banner */
 
 /* banda orizzontale azzurro chiaro sotto il banner */
-#container > hr {
-  /* position: relative; */
-  height: 45px;
+#container .banner > hr {
+  position: relative;
+  height: 55px;
   background-color: #afebe4;
+  margin-top: 40px;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
+  z-index: 1;
 }
 /* /banda orizzontale azzurro chiaro sotto il banner */
 
@@ -218,10 +218,6 @@ main section.light-grey-bg i {
 .l-g-b-blocks.top {
   width: 50%;
   padding-top: 20px;
-  /* margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 40px; */
   margin: 0px auto 40px auto;
   clear: both;
 }
