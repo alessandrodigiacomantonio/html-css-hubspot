@@ -295,11 +295,24 @@ section.gradient-background-lightblue {
   color: #fff;
 }
 
-.gradient-background-lightblue * {
+.gradient-background-lightblue .compacted > * {
   margin-bottom: 20px;
   line-height: 2em;
 }
-
+.gradient-background-lightblue ul.first-row {
+  border-bottom: 1px solid #fff;
+}
 .gradient-background-lightblue li {
   display: inline-block;
+  width: 24%;
+  padding: 10px;
+}
+.gradient-background-lightblue li:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.gradient-background-lightblue img {
+  height: 25px;
+}
+.gradient-background-lightblue  h3 {
+  font-size: 2.5em;
 }
