@@ -125,7 +125,7 @@ nav.menu a {
 .banner {
   position: relative;
   height: 80%;
-  background: linear-gradient(0deg, rgba(255,242,238,1) 0%, rgba(254,245,239,1) 0%);
+  background: linear-gradient(rgba(255,242,238,1), #fef7ef);
 }
 
 .banner-text {
@@ -148,6 +148,7 @@ nav.menu a {
 }
 .banner-text h5 {
   font-size: 11px;
+  font-weight: 400;
 }
 .banner-text::after {
   content: url(../img/jumbotron.png);
@@ -155,7 +156,6 @@ nav.menu a {
   bottom: 0;
   right: 0;
   transform: scale(0.55) translate(2%, 53.4%);
-  z-index: 0;
 }
 
 #container > hr {
@@ -163,5 +163,46 @@ nav.menu a {
   background-color: #afebe4;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
-  z-index: 1;
+}
+
+main section.light-grey-bg {
+  background-color: #f4f9fd;
+}
+main section.light-grey-bg i {
+  color: #fe775a;
+}
+
+.pre-blocks-compatter {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.l-g-b-blocks {
+  background-color: #fff;
+}
+.l-g-b-blocks > * {
+  text-align: center;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+.l-g-b-blocks.top {
+  width: 50%;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+.l-g-b-blocks.top img {
+  height: 90px;
+}
+
+.l-g-b-blocks.horizontal .float-l {
+  width: 30%
+}
+.l-g-b-blocks.horizontal img {
+  height: 45px;
+  margin-bottom:
+}
+.l-g-b-blocks.horizontal .float-r {
+  width: 30%
 }
