@@ -164,13 +164,14 @@ nav.menu a {
   right: 0;
   transform: scale(0.55) translate(2%, 53.4%);
 }
-
+/* banda orizzontale sotto il banner */
 #container > hr {
   height: 45px;
   background-color: #afebe4;
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
 }
+/* /banda orizzontale sotto il banner */
 
 main section.light-grey-bg {
   background-color: #f4f9fd;
@@ -182,9 +183,17 @@ main section.light-grey-bg i {
 .l-g-b-blocks:not(.top) {
   background-color: #fff;
 }
-.l-g-b-blocks > * {
+.l-g-b-blocks  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.l-g-b-blocks  * {
   text-align: center;
-  line-height: 1.4em;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+.l-g-b-blocks img {
+  height: 90px;
   margin-bottom: 20px;
 }
 
@@ -194,23 +203,21 @@ main section.light-grey-bg i {
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 40px;
   clear: both;
 }
 .l-g-b-blocks.top img {
-  height: 90px;
+  height: 130px;
 }
 /* /sezione sotto il banner */
 
 .l-g-b-blocks.horizontal {
   margin-bottom: 20px;
-  padding: 70px 20px 20px 20px;
+  padding: 70px 20px 0px 20px;
 }
 .l-g-b-blocks.horizontal .float-l {
   width: 30%
-}
-.l-g-b-blocks.horizontal img {
-  height: 65px;
-  margin-bottom: 30px;
 }
 .l-g-b-blocks.horizontal .float-l {
   width: 30%;
@@ -220,10 +227,10 @@ main section.light-grey-bg i {
   padding-left: 20px;
 }
 
-.l-g-b-blocks.horizontal .right-block > * {
+.l-g-b-blocks.horizontal .right-block  * {
   text-align: left;
-  line-height: 1.4em;
-  margin-bottom: 20px;
+  /* line-height: 1.4em;
+  margin-bottom: 20px; */
 }
 
 .l-g-b-blocks.horizontal .right-block p.float-l {
@@ -243,3 +250,21 @@ main section.light-grey-bg i {
 .l-g-b-blocks.horizontal i {
   padding-right: 1.3em;
 }
+
+.vertical-blocks {
+  padding: 20px 20px 0px 20px;
+  width: 30%;
+}
+.vertical-blocks img {
+  margin-bottom: 0px;
+}
+.vertical-blocks li {
+  text-align: left;
+  margin-bottom: -20px;
+}
+.vertical-blocks li:last-child {
+  margin-bottom: 0px;
+}
+/* .vertical-blocks a {
+
+} */
