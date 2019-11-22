@@ -282,6 +282,9 @@ main section.light-grey-bg i {
 .vertical-blocks li:last-child {
   margin-bottom: 0px;
 }
+.vertical-blocks i {
+  padding-right: 1.3em;
+}
 
 .vertical-blocks.second {
   margin-left: 5%;
