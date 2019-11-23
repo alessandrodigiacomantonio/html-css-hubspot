@@ -317,9 +317,13 @@ section.gradient-background-lightblue {
 .gradient-background-lightblue li:not(:last-child) {
   border-right: 1px solid #fff;
 }
+.gradient-background-lightblue li  *:not(img){
+  padding-top: 10px;
+}
 .gradient-background-lightblue img {
   height: 25px;
 }
 .gradient-background-lightblue  h3 {
   font-size: 2.5em;
 }
+/* /sezione del main con bg gradiente blu chiaro */
