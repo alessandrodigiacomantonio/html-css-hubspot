@@ -472,7 +472,6 @@ li.social ul {
 }
 li.social ul li {
   display: inline-block;
-
 }
 li.social ul li:not(:first-child) {
   padding-left: 20px;
@@ -481,3 +480,18 @@ li.social ul li:hover a {
   color: #7fd1de;
 }
 /* /footer top */
+
+/* footer-middle */
+footer .footer-middle {
+  margin: 50px auto;
+}
+.footer-middle ul {
+  text-align: center;
+}
+.footer-middle li {
+  display: inline-block;
+}
+.footer-middle li:not(:last-child) {
+  padding-left: 20px;
+}
+/* /footer-middle */ */
