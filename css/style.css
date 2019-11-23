@@ -16,6 +16,8 @@ p > strong {
 .compacted {
   width: 60%;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #container {
@@ -71,6 +73,11 @@ header nav a {
 }
 
 /* nav bar */
+nav .compacted {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 nav.instructions {
   background-color: #f4f9fd;
   border-bottom: 1px solid #32495b;
@@ -108,7 +115,7 @@ ul.instructions-right .search {
 nav.menu {
   background-color: #ffffff;
 }
-nav.menu > *{
+nav.menu .compacted> *{
   width: 50%;
 }
 nav.menu img {
@@ -191,7 +198,6 @@ nav.menu a {
 /* sezione del main con bg grigio chiaro */
 main section.light-grey-bg {
   background-color: #f4f9fd;
-  padding-bottom: 50px;
 }
 main section.light-grey-bg i {
   color: #fe775a;
@@ -269,11 +275,13 @@ main section.light-grey-bg i {
 /* blocchi verticali con bg bianco */
 .vertical-blocks {
   padding: 20px 20px 0px 20px;
-  margin-bottom: 40px;
   width: 30%;
 }
 .vertical-blocks img {
   margin-bottom: 0px;
+}
+.vertical-blocks p:first-of-type {
+  min-height: 100px;
 }
 .vertical-blocks li {
   text-align: left;
@@ -296,12 +304,9 @@ main section.light-grey-bg i {
 /* sezione del main con bg gradiente blu chiaro */
 section.gradient-background-lightblue {
   background: linear-gradient(45deg, #00a4bd, #00bda5);
-  padding-top: 50px;
-  padding-bottom: 50px;
   text-align: center;
   color: #fff;
 }
-
 .gradient-background-lightblue .compacted > * {
   margin-bottom: 20px;
   line-height: 2em;
