@@ -460,7 +460,7 @@ footer a {
 li.tools-generators a {
   color: #fff;
 }
-
+/* bottone Contact Hubspot */
 li.contact-button-social {
   text-align: center;
 }
@@ -476,7 +476,7 @@ li .c-b-block a {
   color: #33475b;
   font-size: 10px;
 }
-
+/* /bottone Contact Hubspot */
 /* lista con link ai social */
 ul.social {
   width: 100%;
@@ -493,6 +493,7 @@ ul.social li:last-child) {
 ul.social li:hover a {
   color: #7fd1de;
 }
+/* /lista con link ai social */
 /* /regole specifiche footer-top */
 /* /footer top */
 
@@ -509,4 +510,4 @@ footer .footer-middle {
 .footer-middle li:not(:last-child) {
   padding-left: 20px;
 }
-/* /footer-middle */ */
+/* /footer-middle */
