@@ -438,6 +438,7 @@ footer a {
   color: #cbd6e2;
 }
 /* footer-top */
+/* regole generiche footer-top */
 .footer-top h5 {
   color: #fff;
   font-size: 1.1em;
@@ -451,34 +452,49 @@ footer a {
 .footer-top li {
   padding-top: 10px;
 }
-.footer-top li:hover:not(.tools-generators):not(.contact-button):not(.social) a {
+.footer-top li:hover:not(.tools-generators):not(.contact-button-social) a {
   color: #7fd1de;
 }
+/* /regole generiche footer-top */
+/* regole specifiche footer-top */
 li.tools-generators a {
   color: #fff;
 }
-li.contact-button a {
-  color: #33475b;
+
+li.contact-button-social {
+  margin-top: 10px;
+  text-align: center;
+}
+li .c-b-s-block {
+  width: 60%;
+}
+li .c-b-block {
   background-color: #fff;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
 }
-.contact-button {
-  margin-top: 10px;
+li .c-b-block a {
+  color: #33475b;
+  font-size: 10px;
 }
+
 /* lista con link ai social */
-li.social ul {
+ul.social {
   width: 100%;
 }
-li.social ul li {
+ul.social li {
   display: inline-block;
 }
-li.social ul li:not(:first-child) {
-  padding-left: 20px;
+ul.social li:not(:first-child) {
+  padding-left: 10px;
 }
-li.social ul li:hover a {
+ul.social li:last-child) {
+  padding-right: 10px;
+}
+ul.social li:hover a {
   color: #7fd1de;
 }
+/* /regole specifiche footer-top */
 /* /footer top */
 
 /* footer-middle */
