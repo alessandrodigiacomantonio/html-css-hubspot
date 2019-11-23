@@ -20,6 +20,7 @@ a {
 
 .compacted {
   width: 60%;
+  max-width: 1080px;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -203,6 +204,7 @@ nav.menu a {
 /* sezione del main con bg grigio chiaro */
 main section.light-grey-bg {
   background-color: #f4f9fd;
+  color: #33475b;
 }
 main section.light-grey-bg i {
   color: #fe775a;
@@ -347,9 +349,13 @@ section.gradient-background-lightblue {
 section.background-white .bg-white-text {
   line-height: 2em;
   vertical-align: middle;
+  color: #33475b
 }
 .bg-white-text *:not(:first-child) {
-  padding-top: 50px;
+  padding-top: 40px;
+}
+.bg-white-top {
+  margin-bottom: 50px;
 }
 .bg-white-top .bg-white-text {
   width: 35%;
@@ -366,7 +372,7 @@ section.background-white .bg-white-text {
   text-align: right;
 }
 .bg-white-brands ul:nth-child(1n+2) {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .bg-white-brands li {
   display: inline-block;
@@ -400,4 +406,20 @@ section.background-white .bg-white-text {
 }
 .bg-white-brands li.vmware {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png");
+}
+
+.bg-white-bottom .bg-white-text {
+  width: 40%;
+}
+.bg-white-bottom .bg-white-text h3 {
+  font-size: 2.3em;
+  line-height: 1.5em;
+}
+.bg-white-bottom-image {
+  height: 375px;
+  width: 60%;
+  background-image: url(../img/woman.webp);
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
