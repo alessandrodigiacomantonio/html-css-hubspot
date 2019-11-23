@@ -354,6 +354,7 @@ section.background-white .bg-white-text {
 .bg-white-text *:not(:first-child) {
   padding-top: 40px;
 }
+/* porzione superiore della sezione con bg bianco */
 .bg-white-top {
   margin-bottom: 50px;
 }
@@ -407,7 +408,9 @@ section.background-white .bg-white-text {
 .bg-white-brands li.vmware {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png");
 }
+/* /porzione superiore della sezione con bg bianco */
 
+/* porzione inferiore della sezione con bg bianco */
 .bg-white-bottom .bg-white-text {
   width: 40%;
 }
@@ -423,3 +426,5 @@ section.background-white .bg-white-text {
   background-size: contain;
   background-repeat: no-repeat;
 }
+/* /porzione inferiore della sezione con bg bianco */
+ /* /sezione del main con bg bianco */
