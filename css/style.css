@@ -5,12 +5,17 @@
   padding: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 p > strong {
   text-transform: uppercase;
+}
+p > span {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
 }
 
 .compacted {
@@ -241,28 +246,33 @@ main section.light-grey-bg i {
 .l-g-b-blocks.horizontal .float-l {
   width: 30%
 }
-.l-g-b-blocks.horizontal .float-l {
-  width: 30%;
+.l-g-b-blocks.horizontal .right-block .clearfix {
+  position: relative;
+  height: 45px;
 }
 .l-g-b-blocks.horizontal .float-l.right {
   width: 50%;
   padding-left: 20px;
 }
-
 .l-g-b-blocks.horizontal .right-block  * {
   text-align: left;
 }
-
 .l-g-b-blocks.horizontal .right-block p.float-l {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 25%;
 }
-
 .l-g-b-blocks.horizontal .right-block hr {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
   width: 73%;
-  margin-top: 7px;
+  margin-bottom: 0px;
   border: 1px solid #899397;
+  background-color: #899397;
 }
-
 .l-g-b-blocks.horizontal li {
   display: inline-block;
   padding-right: 1em;
@@ -332,3 +342,48 @@ section.gradient-background-lightblue {
   font-size: 2.5em;
 }
 /* /sezione del main con bg gradiente blu chiaro */
+
+/* sezione del main con bg bianco */
+section.background-white .bg-white-text {
+  width: 35%;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.bg-white-text h2 {
+  font-size: 3em;
+}
+.bg-white-brands {
+  width: 65%;
+  text-align: right;
+}
+.bg-white-brands li {
+  display: inline-block;
+  width: 20%;
+  height: 25px;
+  background-size: contain;
+  background-position: center;
+}
+.bg-white-brands li.atlassin {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/purple-logo@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png");
+}
+.bg-white-brands li {
+  background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png");
+}
