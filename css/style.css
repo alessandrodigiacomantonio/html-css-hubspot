@@ -345,9 +345,18 @@ section.gradient-background-lightblue {
 
 /* sezione del main con bg bianco */
 section.background-white .bg-white-text {
-  width: 35%;
   line-height: 2em;
   vertical-align: middle;
+}
+.bg-white-text *:not(:first-child) {
+  padding-top: 50px;
+}
+.bg-white-top .bg-white-text {
+  width: 35%;
+}
+.bg-white-top .bg-white-text > div {
+  width: 45%;
+  margin: 0 auto;
 }
 .bg-white-text h2 {
   font-size: 3em;
@@ -356,34 +365,39 @@ section.background-white .bg-white-text {
   width: 65%;
   text-align: right;
 }
+.bg-white-brands ul:nth-child(1n+2) {
+  margin-top: 50px;
+}
 .bg-white-brands li {
   display: inline-block;
   width: 20%;
   height: 25px;
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 10px;
 }
 .bg-white-brands li.atlassin {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.doordash{
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.crowd {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.purple {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/purple-logo@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.subaru {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.wistia {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.classpass {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png");
 }
-.bg-white-brands li {
+.bg-white-brands li.vmware {
   background-image: url("https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png");
 }
