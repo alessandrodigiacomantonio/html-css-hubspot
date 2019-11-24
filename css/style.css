@@ -54,11 +54,14 @@ a {
   list-style: none;
 }
 
+.radius {
+  border-radius: 5px;
+}
+
 .orange-buttons {
   color: #fff;
   padding: 10px 20px;
   background-color: #fe775a;
-  border-radius: 5px;
 }
 
 .login-button {
@@ -66,6 +69,10 @@ a {
   background-color: #fff;
   border: 1px solid #fe775a;
   border-radius: 5px;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 0px #c5c5c5;
 }
 /* /regole di stile generiche */
 
@@ -469,7 +476,6 @@ li .c-b-s-block {
 }
 li .c-b-block {
   background-color: #fff;
-  border-radius: 5px;
   padding: 5px;
 }
 li .c-b-block a {
