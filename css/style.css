@@ -66,6 +66,12 @@ a {
   color: #fff;
   padding: 10px 20px;
   background-color: #fe775a;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+  transition: all 0.20s ease-in-out;
+}
+.orange-buttons:hover {
+  background-color: rgba(254, 119, 90, 0.85);
 }
 
 .login-button {
@@ -73,6 +79,12 @@ a {
   background-color: #fff;
   border: 1px solid #fe775a;
   border-radius: 5px;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+  transition: all 0.20s ease-in-out;
+}
+.login-button:hover {
+  background-color: #fff8f6;
 }
 
 .box-shadow {
