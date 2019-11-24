@@ -538,7 +538,7 @@ ul.social li:hover a {
 
 /* footer-middle */
 footer .footer-middle {
-  margin: 50px auto;
+  margin: 50px auto 30px;
 }
 .footer-middle ul {
   text-align: center;
@@ -550,3 +550,27 @@ footer .footer-middle {
   padding-left: 20px;
 }
 /* /footer-middle */
+hr.footer {
+  border: 1px solid #7c98b6;
+}
+/* footer-bottom */
+footer .footer-bottom {
+  margin-top: 30px;
+}
+.footer-bottom img {
+  /* margin-top: 10px; */
+  height: 25px;
+}
+.footer-bottom ul {
+  text-align: right;
+  width: 80%;
+  /* line-height:45px; */
+}
+.footer-bottom li {
+  display: inline-block;
+  padding-left: 20px;
+}
+footer h5 {
+  font-size: 1.1em;
+  color: #fff;
+}
