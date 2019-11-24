@@ -49,10 +49,12 @@ a {
   clear: both;
 }
 
-/* .fixed {
-  display: fixed;
+.fixed {
+  position: fixed;
   width: 100%;
-} */
+  top: 0;
+  z-index: 2;
+}
 
 .list-style-none {
   list-style: none;
@@ -143,6 +145,7 @@ ul.instructions-right .search {
 
 nav.menu {
   background-color: #ffffff;
+  margin-top: 45px;
 }
 nav.menu .float-l {
   width: 10%;
