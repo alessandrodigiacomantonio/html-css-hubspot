@@ -6,7 +6,7 @@
 }
 
 body {
--webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 p > strong {
@@ -546,7 +546,10 @@ footer .footer-middle {
 .footer-middle li {
   display: inline-block;
 }
-.footer-middle li:not(:last-child) {
+.footer-middle li:hover a {
+  color: #7fd1de;
+}
+.footer-middle li:not(:first-child) {
   padding-left: 20px;
 }
 /* /footer-middle */
@@ -569,6 +572,9 @@ footer .footer-bottom {
 .footer-bottom li {
   display: inline-block;
   padding-left: 20px;
+}
+.footer-bottom li:hover a {
+  color: #7fd1de;
 }
 footer h5 {
   font-size: 1.1em;
