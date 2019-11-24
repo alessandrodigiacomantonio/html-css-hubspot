@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 p > strong {
   text-transform: uppercase;
 }
@@ -219,7 +223,15 @@ main section.light-grey-bg i {
 
 .l-g-b-blocks:not(.top) {
   background-color: #fff;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+  transition: all 0.20s ease-in-out;
 }
+.l-g-b-blocks:not(.top):hover {
+  box-shadow: 0 0 40px 0px #c5c5c5;
+  transform: scale(1.02);
+}
+
 .l-g-b-blocks  {
   margin-top: 20px;
   margin-bottom: 20px;
