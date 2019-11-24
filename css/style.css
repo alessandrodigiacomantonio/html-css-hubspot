@@ -6,7 +6,7 @@
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
+-webkit-font-smoothing: antialiased;
 }
 
 p > strong {
@@ -144,12 +144,15 @@ ul.instructions-right .search {
 nav.menu {
   background-color: #ffffff;
 }
-nav.menu .compacted> *{
-  width: 50%;
+nav.menu .float-l {
+  width: 10%;
 }
 nav.menu img {
   margin-top: 10px;
   height: 25px;
+}
+nav.menu ul.gloat-r {
+  width: 90%;
 }
 nav.menu ul.float-r {
   text-align: right;
