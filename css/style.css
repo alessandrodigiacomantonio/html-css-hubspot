@@ -596,23 +596,22 @@ footer h5 {
 }
 #easteregg::after {
   content:"Mamma lumaca prepara sua figlia per andare a scuola e le dice: - Mi raccomando, fai la bava!";
-  color: white;
+  color: rgba(255, 255, 255, 0);
   font-size: 20px;
   font-style: italic;
+  width: 82%;
   position: absolute;
   right: 0;
   -webkit-transition: all 1s ease-in-out 1s;
   -o-transition: all 1s ease-in-out 1s;
   transition: all 1s ease-in-out 1s;
 }
-.footer-middle:hover #easteregg{
+.footer-middle:hover #easteregg {
   visibility: visible;
   width: 100%;
   height: 108px;
   padding-top: 50px;
 }
-#easteregg:hover {
-  visibility: visible;
-  width: 100%;
-  height: 108px;
+.footer-middle:hover #easteregg::after {
+  color: rgba(255, 255, 255, 1);
 }
